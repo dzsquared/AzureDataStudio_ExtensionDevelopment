@@ -4,6 +4,9 @@ SQL Saturday MN 2018 Session: SQL Operations Studio Extension Development
 ## Abstract
 Cross-platform, open source, and approachably extensible, Azure Data Studio is more than just another SQL Server tool. Previously known as SQL Operations Studio, Azure Data Studio is highly customizable and constantly evolving through extensions published by Microsoft and the community. This session will take the audience through the fundamentals of custom extension development for  Azure Data Studio. Our discussion will include available internal APIs, hosting your extension on GitHub, and sharing your work through the extension marketplace.
 
+## Slide Deck
+[Download PDF](/SQLSaturday796_SlideDeck.pdf)
+
 
 ## Outline
 0. Prerequisite Overview
