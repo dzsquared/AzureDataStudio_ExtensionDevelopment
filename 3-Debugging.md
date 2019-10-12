@@ -40,8 +40,8 @@ When you hit enter, an information message will appear in the lower right corner
 **We have a functioning, albeit not very useful, Azure Data Studio extension**
 
 ## If Azure Data Studio Won't Launch
-1. Ensure that Azure Data Studio is in your PATH
-2. Open an Azure Data Studio window prior to starting debugging
+1. Open an Azure Data Studio window prior to starting debugging
+2. Ensure that Azure Data Studio is in your PATH
 
 ## Ready to Move on to 4-Create?
 [![Prereqs](/images/buttons/button_prereqs.png)](0-Prereqs.md)
