@@ -14,9 +14,9 @@ We'll be installing these items on nearly any computer manufactured since 2013. 
 - Azure Data Studio Debugger Extension in VS Code
 - Git
 - NodeJS
-- Typescript
+- TypeScript
 - Yeoman Extension Generator
-- ~~Azure Data Studio~~ Azure Data Studio
+- Azure Data Studio
 - vsce
 
 
@@ -28,7 +28,7 @@ Once the install completes, launch VS Code.
 
 ## Azure Data Studio Debugger
 The left-most column in VS Code is the *Activity Bar*, where we will access VS Code extensions.
-Extension for VS Code that expedites the setup for debugging with ~~Azure Data Studio~~ Azure Data Studio.
+Extension for VS Code that expedites the setup for debugging with Azure Data Studio.
 [![SOS Debugger](/images/0/vscode_extensions.png)](https://marketplace.visualstudio.com/items?itemName=ms-mssql.sqlops-debug)
 
 ## Node JS
@@ -38,24 +38,23 @@ Open source, not by Microsoft, and available here: https://nodejs.org/en/downloa
 ## npm
 Software registry and package manager for Javascript, npm ties you directly to functionality from other code packages. Installed right along with Node JS, you can double check the npm version with `npm -v` from the VS Code terminal.
 
-## Typescript
-Typescript is a superset of Javascript, a language that adds functionality to the base language by compiling to Javascript. This functionality, including static types and classes, makes Typescript the choice over Javascript for many larger projects.
+## TypeScript
+TypeScript is a superset of JavaScript, a language that adds functionality to the base language by compiling to JavaScript. This functionality, including static types and classes, makes TypeScript the choice over JavaScript for many larger projects.
 Open source and maintained by Microsoft.
-With npm installed, you can get Typescript at the VS Code terminal with `npm install -g typescript`
+With npm installed, you can get TypeScript at the VS Code terminal with `npm install -g typescript`
 *depending on your OS, you might need to use sudo*
 
 ## Install the Yeoman Extension Generator 
 The Yeoman (yo) extension generator creates the framework needed for an Azure Data Studio extension, theme, or keymap. 
-Install the extension generator from the VS Code terminal with npm by running `npm install -g yo generator-sqlops`
+Install the extension generator from the VS Code terminal with npm by running `npm install -g yo generator-azuredatastudio`
 *depending on your OS, you might need to use sudo*
 ![Install Yo](/images/0/install_yo.png)
 
 
 ## Azure Data Studio
-If you don't already have Azure Data Studio, it has a wide range of functionality for SQL Server, Azure DB, and Azure SQL Data Warehouse and is worthy of your consideration.
-A feature comparison with SQL Server Management Studio is summarized here: https://cloudblogs.microsoft.com/sqlserver/2018/09/25/azure-data-studio-for-sql-server/
+If you don't already have Azure Data Studio, it has a wide range of functionality for SQL Server, Azure DB, and Azure SQL Data Warehouse and is worthy of your consideration.  Azure Data Studio is an additive tool and does not replace SQL Server Management Studio. As VS Code is to Visual Studio, Azure Data Studio is to SQL Server Management Studio.
 
-Open source, maintained by Microsoft, and available here: https://docs.microsoft.com/en-us/sql/azure-data-studio/download
+The code of Azure Data Studio is open source, maintained by Microsoft, and available here: https://docs.microsoft.com/en-us/sql/azure-data-studio/download
 
 
 ## vsce
