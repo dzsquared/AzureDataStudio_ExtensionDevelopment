@@ -11,12 +11,12 @@
 # Prerequisites
 We'll be installing these items on nearly any computer manufactured since 2013.  All are free, many are open source.
 - VS Code
-- SQL Operations Studio Debugger Extension in VS Code
+- Azure Data Studio Debugger Extension in VS Code
 - Git
 - NodeJS
 - Typescript
 - Yeoman Extension Generator
-- ~~SQL Operations Studio~~ Azure Data Studio
+- ~~Azure Data Studio~~ Azure Data Studio
 - vsce
 
 
@@ -26,9 +26,9 @@ Once the install completes, launch VS Code.
 [![VS Code](/images/0/vscode_layout.png)](https://code.visualstudio.com/docs/getstarted/userinterface)
 
 
-## SQL Operations Studio Debugger
+## Azure Data Studio Debugger
 The left-most column in VS Code is the *Activity Bar*, where we will access VS Code extensions.
-Extension for VS Code that expedites the setup for debugging with ~~SQL Operations Studio~~ Azure Data Studio.
+Extension for VS Code that expedites the setup for debugging with ~~Azure Data Studio~~ Azure Data Studio.
 [![SOS Debugger](/images/0/vscode_extensions.png)](https://marketplace.visualstudio.com/items?itemName=ms-mssql.sqlops-debug)
 
 ## Node JS

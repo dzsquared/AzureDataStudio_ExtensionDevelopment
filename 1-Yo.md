@@ -16,8 +16,8 @@ Open the folder you would like to create the folder for this project in VS Code.
 ![Open Folder](/images/1/open_folder2.png)
 
 ## Run
-Using the terminal in VS Code, run `yo sqlops`
-![Open Folder](/images/1/yo_sqlops.png)
+Using the terminal in VS Code, run `yo azuredatastudio`
+![Open Folder](/images/1/yo_azuredatastudio.png)
 
 ## Make Your Selections
 - For this sample, leave the *Typescript Extension* selection

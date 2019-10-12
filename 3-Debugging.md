@@ -11,7 +11,7 @@
 # Debug and Test in Azure Data Studio
 
 ## Name Change Complication
-With the recent name change from SQL Operations Studio (sqlops) to Azure Data Studio (azuredatastudio), you need to adjust the file `.vscode/launch.json`.
+With the name change from SQL Operations Studio (sqlops) to Azure Data Studio (azuredatastudio), you might need to adjust the file `.vscode/launch.json` on older projects.
 
 There are two instances of `"runtimeExecutable": "sqlops"` that should be changed to `"runtimeExecutable": "azuredatastudio"`.
 
