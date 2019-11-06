@@ -21,7 +21,7 @@ Fill in the information for your extension and upload the **.vsix** file to the 
 
 ## Fork the Azure Data Studio Repository
 
-Go to the ![Azure Data Studio GitHub repository](https://github.com/Microsoft/azuredatastudio) and fork the repository. This adds a copy of the repository to your GitHub account, where you can make changes independently.
+Go to the [Azure Data Studio GitHub repository](https://github.com/Microsoft/azuredatastudio) and fork the repository. This adds a copy of the repository to your GitHub account, where you can make changes independently.
 
 ![Fork](/images/6/fork.png)
 
@@ -45,6 +45,9 @@ The content of the listing includes:
 - icon link
 - listing page (your readme)
 - manifest and license info
+
+
+![editonline](/images/summit_gifs/extgallery.gif)
 
 When you're ready, commit the changes to **extensionsGallery.json**.
 ![commit](/images/6/commit.png)

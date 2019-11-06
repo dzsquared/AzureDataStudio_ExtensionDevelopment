@@ -24,6 +24,11 @@ Using the terminal in VS Code, run `yo azuredatastudio`
 - Enter a name, identifier, description, and your publishing name for the extension
 - Decline stricter checking and linting
 - Select the initialization of a Git repository
+
+
+
+![Open Folder](/images/summit_gifs/yoAzureDataStudio.gif)
+
 ![Open Folder](/images/1/yo_sqlops_2.png)
 
 ## Open the New Extension Folder

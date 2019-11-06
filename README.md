@@ -1,13 +1,18 @@
 # Azure Data Studio Extension Development
 
+![Azure Data Studio Logo](/images/AzureDataStudioLogo.png)
 
 ## Welcome!
 Cross-platform, open source, and approachably extensible, Azure Data Studio is more than just another SQL Server tool. Azure Data Studio is highly customizable and constantly evolving through extensions published by Microsoft and the community. This repository will take you through the fundamentals of extension development for Azure Data Studio.
 
 ## Slide Decks
-[Download PDF for SQL Saturday 796 (2018)](/SQLSaturday796_SlideDeck.pdf)
+
+[Download PDF for PASS Summit 2019](/PASS_Summit2019.pdf)
 
 [Download PDF for SQL Saturday 913 (2019)](/SQLSaturday913_SlideDeck.pdf)
+
+[Download PDF for SQL Saturday 796 (2018)](/SQLSaturday796_SlideDeck.pdf)
+
 
 
 ## Outline
@@ -20,7 +25,7 @@ Cross-platform, open source, and approachably extensible, Azure Data Studio is m
 6. Publish
 
 ## Thank You
-To the SQL Saturday MN organizers and sponsors.
+To the SQL Saturday MN organizers and sponsors, the PASS Summit program committee, and the Microsoft SQL Server tools team.
 
 ## Build a Sample Extension
 [![Prereqs](/images/buttons/button_prereqs.png)](0-Prereqs.md)

@@ -14,6 +14,9 @@ As you work on your extension you can create checkpoints in the project history 
 ## Initial Commit
 The project folder was initialized for Git through the yo generator, but we need to check the current state of the folder into source control.  In the source control tab of the activity bar, type an initial commit description and **Commit All**.
 
+
+![VS Code Git Remote](/images/summit_gifs/initialcommit.gif)
+
 ![VS Code Git Remote](/images/2/initial_commit.png)
 
 # Share Your Work
