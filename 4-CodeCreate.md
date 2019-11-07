@@ -34,8 +34,30 @@ Access the current Azure Data Studio connection with `connection.getCurrentConne
 If we're connected, we want to establish a QueryProvider for the connection and run a query.  In this example, we're counting on the user being connected to a StackOverflow sample database.
 ![Run a Query](/images/4/full_command.png)
 
+**In Summary:**
 
-### Keep Up with Changes to Azure Data Studio APIs
+![Build Command](/images/summit_gifs/azdataAPI.gif)
+
+### Add the New Command to the Extension Manifest (package.json)
+In VS Code select the package.json file (extension manifest).  We will be editing two regions of code to fully enable the new command we have added. (commands and activation events)
+
+
+![Editing Package.json](/images/summit_gifs/packagejson.png)
+
+
+In the `contributes\commands` array, add another `command` and `title` object with the same command identifier from our previous step ("extension.getDown").
+
+Because we want to be able to immediately use this command, it also needs to be added as an activation event in the `activationEvents` array.
+
+![Editing Package.json](/images/summit_gifs/packagejson.gif)
+
+
+### Testing our New Command
+![Testing Downvotes](/images/summit_gifs/maxdownvotes.gif)
+
+
+
+### Free Tip! Keep Up with Changes to Azure Data Studio APIs
 While the APIs are largely self-documenting, keeping up with changes and additions is easiest through the GitHub RSS feed for the API file: https://github.com/microsoft/azuredatastudio/commits/master/src/sql/azdata.d.ts.atom
 
 
@@ -68,6 +90,14 @@ Find the command for 'extension.sayHello' in your extension framework.  Add a va
 Some extensions might need more information about a machine, such as the operating system.  We can access the OS type through this NodeJS package and show a message to the user based on the OS of machine.
 
 ![OS Name](/images/4/add_ostype.png)
+
+**In Summary:**
+
+![OS Name](/images/summit_gifs/getOSbuild.gif)
+
+Testing the new functionality:
+![OS Name](/images/summit_gifs/OSdemo.gif)
+
 
 
 ## Serve Up Webviews

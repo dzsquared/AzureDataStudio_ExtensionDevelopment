@@ -10,7 +10,7 @@
 
 # Debug and Test in Azure Data Studio
 
-## Name Change Complication
+## ~~Name Change Complication~~  Skip to Debugging for Current Projects
 With the name change from SQL Operations Studio (sqlops) to Azure Data Studio (azuredatastudio), you might need to adjust the file `.vscode/launch.json` on older projects.
 
 There are two instances of `"runtimeExecutable": "sqlops"` that should be changed to `"runtimeExecutable": "azuredatastudio"`.
@@ -24,6 +24,10 @@ There are two instances of `"runtimeExecutable": "sqlops"` that should be change
 
 ## Debugging
 The **Debug** menu can be used to launch your extension into a special instance of Azure Data Studio with or without the VS Code debugger attached.
+
+The template extension demonstrates two concepts - extension activation and extension commands.  On extension activation, a message is logged to the extension console.  On execution of the "Hello World" command, an information message is presented to the user.
+
+![VS Code Debugging](/images/summit_gifs/debug.gif)
 
 Open the **Debug** menu and select **Start Debugging**. A new Azure Data Studio window should open and VS Code should enter debugging mode.
 
