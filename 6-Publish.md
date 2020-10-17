@@ -15,9 +15,11 @@ On the GitHub repository for your extension, click into *releases* and click the
 
 Fill in the information for your extension and upload the **.vsix** file to the drop zone for binaries.  Publish the release, you'll need links from this page for the extension gallery listing within Azure Data Studio.
 
-![Release](/images/6/release.png)
+![Release](/images/6/release.PNG)
 
 # Publish the Extension to Azure Data Studio
+
+The extension gallery is managed by 2 files, **extensionsGallery.json** and **extensionsGallery-insiders.json**. If you want to publish a preview of your extension to the Azure Data Studio insiders build only, update the insiders file only. If you're ready to publish to the main Azure Data Studio gallery update both files.
 
 ## Fork the Azure Data Studio Repository
 
@@ -53,8 +55,10 @@ When you're ready, commit the changes to **extensionsGallery.json**.
 ![commit](/images/6/commit.png)
 
 
+**Do this again for the insiders file, if you haven't published there already.**
+
 ## Submit a Pull Request
-Finally, to send the addition of your extension over to *Microsoft/AzureDataStudio*, create a pull request.  A Microsoft maintainer generally reviews the pull request within a few business days and it will be merged into the product shortly after.
+Finally, to send the addition of your extension over to *Microsoft/AzureDataStudio*, create a pull request to the **release/extensions** branch.  A Microsoft maintainer generally reviews the pull request within a few business days and it will be merged into the product shortly after.
 
 
 # You're Done! Ok, not really. Now you can implement new features.  Good luck!
